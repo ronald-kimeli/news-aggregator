@@ -1,0 +1,1021 @@
+2023/06/16 13:15:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/16 13:15:01 [notice] 21#21: gracefully shutting down
+2023/06/16 13:15:01 [notice] 21#21: exiting
+2023/06/16 13:15:01 [notice] 20#20: gracefully shutting down
+2023/06/16 13:15:01 [notice] 22#22: gracefully shutting down
+2023/06/16 13:15:01 [notice] 23#23: gracefully shutting down
+2023/06/16 13:15:01 [notice] 23#23: exiting
+2023/06/16 13:15:01 [notice] 21#21: exit
+2023/06/16 13:15:01 [notice] 20#20: exiting
+2023/06/16 13:15:01 [notice] 22#22: exiting
+2023/06/16 13:15:01 [notice] 20#20: exit
+2023/06/16 13:15:01 [notice] 23#23: exit
+2023/06/16 13:15:01 [notice] 22#22: exit
+2023/06/16 13:15:01 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/06/16 13:15:01 [notice] 1#1: worker process 20 exited with code 0
+2023/06/16 13:15:01 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/16 13:15:01 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/06/16 13:15:01 [notice] 1#1: worker process 21 exited with code 0
+2023/06/16 13:15:01 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/16 13:15:01 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/06/16 13:15:01 [notice] 1#1: worker process 22 exited with code 0
+2023/06/16 13:15:01 [notice] 1#1: worker process 23 exited with code 0
+2023/06/16 13:15:01 [notice] 1#1: exit
+2023/06/16 13:15:08 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/16 13:15:15 [notice] 1#1: using the "epoll" event method
+2023/06/16 13:15:15 [notice] 1#1: nginx/1.24.0
+2023/06/16 13:15:15 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/16 13:15:15 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/16 13:15:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/16 13:15:15 [notice] 1#1: start worker processes
+2023/06/16 13:15:15 [notice] 1#1: start worker process 20
+2023/06/16 13:15:15 [notice] 1#1: start worker process 21
+2023/06/16 13:15:15 [notice] 1#1: start worker process 22
+2023/06/16 13:15:15 [notice] 1#1: start worker process 23
+2023/06/16 13:21:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/16 13:21:08 [notice] 20#20: gracefully shutting down
+2023/06/16 13:21:08 [notice] 22#22: gracefully shutting down
+2023/06/16 13:21:08 [notice] 21#21: gracefully shutting down
+2023/06/16 13:21:08 [notice] 21#21: exiting
+2023/06/16 13:21:08 [notice] 23#23: gracefully shutting down
+2023/06/16 13:21:08 [notice] 20#20: exiting
+2023/06/16 13:21:08 [notice] 22#22: exiting
+2023/06/16 13:21:08 [notice] 21#21: exit
+2023/06/16 13:21:08 [notice] 22#22: exit
+2023/06/16 13:21:08 [notice] 23#23: exiting
+2023/06/16 13:21:08 [notice] 23#23: exit
+2023/06/16 13:21:08 [notice] 20#20: exit
+2023/06/16 13:21:08 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/06/16 13:21:08 [notice] 1#1: worker process 20 exited with code 0
+2023/06/16 13:21:08 [notice] 1#1: worker process 22 exited with code 0
+2023/06/16 13:21:08 [notice] 1#1: worker process 23 exited with code 0
+2023/06/16 13:21:08 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/16 13:21:08 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/06/16 13:21:08 [notice] 1#1: worker process 21 exited with code 0
+2023/06/16 13:21:08 [notice] 1#1: exit
+2023/06/16 13:21:17 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/16 13:21:23 [notice] 1#1: using the "epoll" event method
+2023/06/16 13:21:23 [notice] 1#1: nginx/1.24.0
+2023/06/16 13:21:23 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/16 13:21:23 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/16 13:21:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/16 13:21:23 [notice] 1#1: start worker processes
+2023/06/16 13:21:23 [notice] 1#1: start worker process 20
+2023/06/16 13:21:23 [notice] 1#1: start worker process 21
+2023/06/16 13:21:23 [notice] 1#1: start worker process 22
+2023/06/16 13:21:23 [notice] 1#1: start worker process 23
+2023/06/16 13:28:57 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/16 13:28:57 [notice] 22#22: gracefully shutting down
+2023/06/16 13:28:57 [notice] 22#22: exiting
+2023/06/16 13:28:57 [notice] 21#21: gracefully shutting down
+2023/06/16 13:28:57 [notice] 21#21: exiting
+2023/06/16 13:28:57 [notice] 23#23: gracefully shutting down
+2023/06/16 13:28:57 [notice] 23#23: exiting
+2023/06/16 13:28:57 [notice] 20#20: gracefully shutting down
+2023/06/16 13:28:57 [notice] 22#22: exit
+2023/06/16 13:28:57 [notice] 21#21: exit
+2023/06/16 13:28:57 [notice] 23#23: exit
+2023/06/16 13:28:57 [notice] 20#20: exiting
+2023/06/16 13:28:57 [notice] 20#20: exit
+2023/06/16 13:28:57 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/06/16 13:28:57 [notice] 1#1: worker process 22 exited with code 0
+2023/06/16 13:28:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/16 13:28:57 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/06/16 13:28:57 [notice] 1#1: worker process 21 exited with code 0
+2023/06/16 13:28:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/16 13:28:57 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/06/16 13:28:57 [notice] 1#1: worker process 23 exited with code 0
+2023/06/16 13:28:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/16 13:28:57 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/06/16 13:28:57 [notice] 1#1: worker process 20 exited with code 0
+2023/06/16 13:28:57 [notice] 1#1: exit
+2023/06/16 14:19:37 [notice] 1#1: using the "epoll" event method
+2023/06/16 14:19:37 [notice] 1#1: nginx/1.24.0
+2023/06/16 14:19:37 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/16 14:19:37 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/16 14:19:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/16 14:19:37 [notice] 1#1: start worker processes
+2023/06/16 14:19:37 [notice] 1#1: start worker process 20
+2023/06/16 14:19:37 [notice] 1#1: start worker process 21
+2023/06/16 14:19:37 [notice] 1#1: start worker process 22
+2023/06/16 14:19:37 [notice] 1#1: start worker process 23
+2023/06/17 07:49:52 [notice] 1#1: using the "epoll" event method
+2023/06/17 07:49:52 [notice] 1#1: nginx/1.24.0
+2023/06/17 07:49:52 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 07:49:52 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 07:49:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 07:49:52 [notice] 1#1: start worker processes
+2023/06/17 07:49:52 [notice] 1#1: start worker process 20
+2023/06/17 07:49:52 [notice] 1#1: start worker process 21
+2023/06/17 07:49:52 [notice] 1#1: start worker process 22
+2023/06/17 07:49:52 [notice] 1#1: start worker process 23
+2023/06/17 08:00:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 08:00:23 [notice] 20#20: gracefully shutting down
+2023/06/17 08:00:23 [notice] 20#20: exiting
+2023/06/17 08:00:23 [notice] 23#23: gracefully shutting down
+2023/06/17 08:00:23 [notice] 21#21: gracefully shutting down
+2023/06/17 08:00:23 [notice] 22#22: gracefully shutting down
+2023/06/17 08:00:23 [notice] 20#20: exit
+2023/06/17 08:00:23 [notice] 23#23: exiting
+2023/06/17 08:00:23 [notice] 21#21: exiting
+2023/06/17 08:00:23 [notice] 23#23: exit
+2023/06/17 08:00:23 [notice] 22#22: exiting
+2023/06/17 08:00:23 [notice] 21#21: exit
+2023/06/17 08:00:23 [notice] 22#22: exit
+2023/06/17 08:00:23 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/06/17 08:00:23 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 08:00:23 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 08:00:23 [notice] 1#1: worker process 23 exited with code 0
+2023/06/17 08:00:23 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 08:00:23 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/06/17 08:00:23 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/06/17 08:00:23 [notice] 1#1: worker process 20 exited with code 0
+2023/06/17 08:00:23 [notice] 1#1: exit
+2023/06/17 08:00:43 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 08:00:59 [notice] 1#1: using the "epoll" event method
+2023/06/17 08:00:59 [notice] 1#1: nginx/1.24.0
+2023/06/17 08:00:59 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 08:00:59 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 08:00:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 08:00:59 [notice] 1#1: start worker processes
+2023/06/17 08:00:59 [notice] 1#1: start worker process 20
+2023/06/17 08:00:59 [notice] 1#1: start worker process 21
+2023/06/17 08:00:59 [notice] 1#1: start worker process 22
+2023/06/17 08:00:59 [notice] 1#1: start worker process 23
+2023/06/17 08:11:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 08:11:31 [notice] 20#20: gracefully shutting down
+2023/06/17 08:11:31 [notice] 20#20: exiting
+2023/06/17 08:11:31 [notice] 23#23: gracefully shutting down
+2023/06/17 08:11:31 [notice] 23#23: exiting
+2023/06/17 08:11:31 [notice] 21#21: gracefully shutting down
+2023/06/17 08:11:31 [notice] 22#22: gracefully shutting down
+2023/06/17 08:11:31 [notice] 20#20: exit
+2023/06/17 08:11:31 [notice] 23#23: exit
+2023/06/17 08:11:31 [notice] 21#21: exiting
+2023/06/17 08:11:31 [notice] 22#22: exiting
+2023/06/17 08:11:31 [notice] 22#22: exit
+2023/06/17 08:11:31 [notice] 21#21: exit
+2023/06/17 08:11:31 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/06/17 08:11:31 [notice] 1#1: worker process 23 exited with code 0
+2023/06/17 08:11:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 08:11:31 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/06/17 08:11:31 [notice] 1#1: worker process 20 exited with code 0
+2023/06/17 08:11:31 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 08:11:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 08:11:31 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/06/17 08:11:31 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 08:11:31 [notice] 1#1: exit
+2023/06/17 08:16:47 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 08:16:57 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 08:17:03 [notice] 1#1: using the "epoll" event method
+2023/06/17 08:17:03 [notice] 1#1: nginx/1.24.0
+2023/06/17 08:17:03 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 08:17:03 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 08:17:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 08:17:03 [notice] 1#1: start worker processes
+2023/06/17 08:17:03 [notice] 1#1: start worker process 20
+2023/06/17 08:17:03 [notice] 1#1: start worker process 21
+2023/06/17 08:17:03 [notice] 1#1: start worker process 22
+2023/06/17 08:17:03 [notice] 1#1: start worker process 23
+2023/06/17 08:17:04 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:8080"
+2023/06/17 08:17:06 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:8080"
+2023/06/17 08:17:07 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:8080"
+2023/06/17 08:17:07 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:8080"
+2023/06/17 08:17:07 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:8080"
+2023/06/17 08:17:07 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:8080"
+2023/06/17 08:17:15 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:8080"
+2023/06/17 08:19:30 [error] 22#22: *11 connect() failed (113: Host is unreachable) while connecting to upstream, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:8080"
+2023/06/17 08:20:13 [error] 22#22: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:8080"
+2023/06/17 08:22:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 08:22:31 [notice] 20#20: gracefully shutting down
+2023/06/17 08:22:31 [notice] 22#22: gracefully shutting down
+2023/06/17 08:22:31 [notice] 22#22: exiting
+2023/06/17 08:22:31 [notice] 21#21: gracefully shutting down
+2023/06/17 08:22:31 [notice] 21#21: exiting
+2023/06/17 08:22:31 [notice] 23#23: gracefully shutting down
+2023/06/17 08:22:31 [notice] 20#20: exiting
+2023/06/17 08:22:31 [notice] 22#22: exit
+2023/06/17 08:22:31 [notice] 20#20: exit
+2023/06/17 08:22:31 [notice] 21#21: exit
+2023/06/17 08:22:31 [notice] 23#23: exiting
+2023/06/17 08:22:31 [notice] 23#23: exit
+2023/06/17 08:22:31 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/06/17 08:22:31 [notice] 1#1: worker process 20 exited with code 0
+2023/06/17 08:22:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 08:22:31 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/06/17 08:22:31 [notice] 1#1: worker process 23 exited with code 0
+2023/06/17 08:22:31 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 08:22:31 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 08:22:31 [notice] 1#1: exit
+2023/06/17 08:22:50 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 08:22:56 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 08:23:03 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 08:23:10 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 08:23:14 [notice] 1#1: using the "epoll" event method
+2023/06/17 08:23:14 [notice] 1#1: nginx/1.24.0
+2023/06/17 08:23:14 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 08:23:14 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 08:23:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 08:23:14 [notice] 1#1: start worker processes
+2023/06/17 08:23:14 [notice] 1#1: start worker process 20
+2023/06/17 08:23:14 [notice] 1#1: start worker process 21
+2023/06/17 08:23:14 [notice] 1#1: start worker process 22
+2023/06/17 08:23:14 [notice] 1#1: start worker process 23
+2023/06/17 08:24:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 08:24:01 [notice] 20#20: gracefully shutting down
+2023/06/17 08:24:01 [notice] 22#22: gracefully shutting down
+2023/06/17 08:24:01 [notice] 21#21: gracefully shutting down
+2023/06/17 08:24:01 [notice] 21#21: exiting
+2023/06/17 08:24:01 [notice] 23#23: gracefully shutting down
+2023/06/17 08:24:01 [notice] 23#23: exiting
+2023/06/17 08:24:01 [notice] 20#20: exiting
+2023/06/17 08:24:01 [notice] 22#22: exiting
+2023/06/17 08:24:01 [notice] 22#22: exit
+2023/06/17 08:24:01 [notice] 21#21: exit
+2023/06/17 08:24:01 [notice] 23#23: exit
+2023/06/17 08:24:01 [notice] 20#20: exit
+2023/06/17 08:24:01 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/06/17 08:24:01 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 08:24:01 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 08:24:01 [notice] 1#1: worker process 23 exited with code 0
+2023/06/17 08:24:01 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 08:24:01 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/06/17 08:24:01 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/06/17 08:24:01 [notice] 1#1: worker process 20 exited with code 0
+2023/06/17 08:24:01 [notice] 1#1: exit
+2023/06/17 08:24:21 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 08:24:30 [notice] 1#1: using the "epoll" event method
+2023/06/17 08:24:30 [notice] 1#1: nginx/1.24.0
+2023/06/17 08:24:30 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 08:24:30 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 08:24:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 08:24:30 [notice] 1#1: start worker processes
+2023/06/17 08:24:30 [notice] 1#1: start worker process 20
+2023/06/17 08:24:30 [notice] 1#1: start worker process 21
+2023/06/17 08:24:30 [notice] 1#1: start worker process 22
+2023/06/17 08:24:30 [notice] 1#1: start worker process 23
+2023/06/17 08:25:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 08:25:41 [notice] 20#20: gracefully shutting down
+2023/06/17 08:25:41 [notice] 21#21: gracefully shutting down
+2023/06/17 08:25:41 [notice] 20#20: exiting
+2023/06/17 08:25:41 [notice] 22#22: gracefully shutting down
+2023/06/17 08:25:41 [notice] 23#23: gracefully shutting down
+2023/06/17 08:25:41 [notice] 21#21: exiting
+2023/06/17 08:25:41 [notice] 21#21: exit
+2023/06/17 08:25:41 [notice] 22#22: exiting
+2023/06/17 08:25:41 [notice] 22#22: exit
+2023/06/17 08:25:41 [notice] 23#23: exiting
+2023/06/17 08:25:41 [notice] 23#23: exit
+2023/06/17 08:25:41 [notice] 20#20: exit
+2023/06/17 08:25:41 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/06/17 08:25:41 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 08:25:41 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 08:25:41 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 08:25:41 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/06/17 08:25:41 [notice] 1#1: worker process 20 exited with code 0
+2023/06/17 08:25:41 [notice] 1#1: worker process 23 exited with code 0
+2023/06/17 08:25:41 [notice] 1#1: exit
+2023/06/17 08:26:01 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 08:26:06 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 08:26:12 [notice] 1#1: using the "epoll" event method
+2023/06/17 08:26:12 [notice] 1#1: nginx/1.24.0
+2023/06/17 08:26:12 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 08:26:12 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 08:26:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 08:26:12 [notice] 1#1: start worker processes
+2023/06/17 08:26:12 [notice] 1#1: start worker process 20
+2023/06/17 08:26:12 [notice] 1#1: start worker process 21
+2023/06/17 08:26:12 [notice] 1#1: start worker process 22
+2023/06/17 08:26:12 [notice] 1#1: start worker process 23
+2023/06/17 08:27:52 [error] 21#21: *2 connect() failed (113: Host is unreachable) while connecting to upstream, client: 172.21.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.4:9000", host: "localhost:8080"
+2023/06/17 08:29:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 08:29:44 [notice] 20#20: gracefully shutting down
+2023/06/17 08:29:44 [notice] 21#21: gracefully shutting down
+2023/06/17 08:29:44 [notice] 22#22: gracefully shutting down
+2023/06/17 08:29:44 [notice] 23#23: gracefully shutting down
+2023/06/17 08:29:44 [notice] 20#20: exiting
+2023/06/17 08:29:44 [notice] 23#23: exiting
+2023/06/17 08:29:44 [notice] 21#21: exiting
+2023/06/17 08:29:44 [notice] 22#22: exiting
+2023/06/17 08:29:44 [notice] 20#20: exit
+2023/06/17 08:29:44 [notice] 22#22: exit
+2023/06/17 08:29:44 [notice] 23#23: exit
+2023/06/17 08:29:44 [notice] 21#21: exit
+2023/06/17 08:29:44 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/06/17 08:29:44 [notice] 1#1: worker process 23 exited with code 0
+2023/06/17 08:29:44 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 08:29:44 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/06/17 08:29:44 [notice] 1#1: worker process 20 exited with code 0
+2023/06/17 08:29:44 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 08:29:44 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 08:29:44 [notice] 1#1: exit
+2023/06/17 08:30:27 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 08:30:34 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 08:30:41 [notice] 1#1: using the "epoll" event method
+2023/06/17 08:30:41 [notice] 1#1: nginx/1.24.0
+2023/06/17 08:30:41 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 08:30:41 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 08:30:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 08:30:41 [notice] 1#1: start worker processes
+2023/06/17 08:30:41 [notice] 1#1: start worker process 20
+2023/06/17 08:30:41 [notice] 1#1: start worker process 21
+2023/06/17 08:30:41 [notice] 1#1: start worker process 22
+2023/06/17 08:30:41 [notice] 1#1: start worker process 23
+2023/06/17 08:31:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 08:31:10 [notice] 20#20: gracefully shutting down
+2023/06/17 08:31:10 [notice] 21#21: gracefully shutting down
+2023/06/17 08:31:10 [notice] 22#22: gracefully shutting down
+2023/06/17 08:31:10 [notice] 23#23: gracefully shutting down
+2023/06/17 08:31:10 [notice] 23#23: exiting
+2023/06/17 08:31:10 [notice] 20#20: exiting
+2023/06/17 08:31:10 [notice] 20#20: exit
+2023/06/17 08:31:10 [notice] 21#21: exiting
+2023/06/17 08:31:10 [notice] 22#22: exiting
+2023/06/17 08:31:10 [notice] 23#23: exit
+2023/06/17 08:31:10 [notice] 22#22: exit
+2023/06/17 08:31:10 [notice] 21#21: exit
+2023/06/17 08:31:10 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/06/17 08:31:10 [notice] 1#1: worker process 20 exited with code 0
+2023/06/17 08:31:10 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 08:31:10 [notice] 1#1: worker process 23 exited with code 0
+2023/06/17 08:31:10 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 08:31:10 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/06/17 08:31:10 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 08:31:10 [notice] 1#1: exit
+2023/06/17 08:31:41 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 08:31:49 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 08:31:58 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 08:32:01 [notice] 1#1: using the "epoll" event method
+2023/06/17 08:32:01 [notice] 1#1: nginx/1.24.0
+2023/06/17 08:32:01 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 08:32:01 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 08:32:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 08:32:01 [notice] 1#1: start worker processes
+2023/06/17 08:32:01 [notice] 1#1: start worker process 20
+2023/06/17 08:32:01 [notice] 1#1: start worker process 21
+2023/06/17 08:32:01 [notice] 1#1: start worker process 22
+2023/06/17 08:32:01 [notice] 1#1: start worker process 23
+2023/06/17 08:32:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 08:32:08 [notice] 23#23: gracefully shutting down
+2023/06/17 08:32:08 [notice] 20#20: gracefully shutting down
+2023/06/17 08:32:08 [notice] 21#21: gracefully shutting down
+2023/06/17 08:32:08 [notice] 21#21: exiting
+2023/06/17 08:32:08 [notice] 22#22: gracefully shutting down
+2023/06/17 08:32:08 [notice] 22#22: exiting
+2023/06/17 08:32:08 [notice] 23#23: exiting
+2023/06/17 08:32:08 [notice] 20#20: exiting
+2023/06/17 08:32:08 [notice] 20#20: exit
+2023/06/17 08:32:08 [notice] 21#21: exit
+2023/06/17 08:32:08 [notice] 22#22: exit
+2023/06/17 08:32:08 [notice] 23#23: exit
+2023/06/17 08:32:08 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/06/17 08:32:08 [notice] 1#1: worker process 20 exited with code 0
+2023/06/17 08:32:08 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 08:32:08 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 08:32:08 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/06/17 08:32:08 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/06/17 08:32:08 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 08:32:08 [notice] 1#1: worker process 23 exited with code 0
+2023/06/17 08:32:08 [notice] 1#1: exit
+2023/06/17 08:47:14 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 08:47:21 [notice] 1#1: using the "epoll" event method
+2023/06/17 08:47:21 [notice] 1#1: nginx/1.24.0
+2023/06/17 08:47:21 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 08:47:21 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 08:47:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 08:47:21 [notice] 1#1: start worker processes
+2023/06/17 08:47:21 [notice] 1#1: start worker process 20
+2023/06/17 08:47:21 [notice] 1#1: start worker process 21
+2023/06/17 08:47:21 [notice] 1#1: start worker process 22
+2023/06/17 08:47:21 [notice] 1#1: start worker process 23
+2023/06/17 09:03:09 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 09:03:09 [notice] 20#20: gracefully shutting down
+2023/06/17 09:03:09 [notice] 21#21: gracefully shutting down
+2023/06/17 09:03:09 [notice] 23#23: gracefully shutting down
+2023/06/17 09:03:09 [notice] 23#23: exiting
+2023/06/17 09:03:09 [notice] 22#22: gracefully shutting down
+2023/06/17 09:03:09 [notice] 21#21: exiting
+2023/06/17 09:03:09 [notice] 23#23: exit
+2023/06/17 09:03:09 [notice] 21#21: exit
+2023/06/17 09:03:09 [notice] 22#22: exiting
+2023/06/17 09:03:09 [notice] 22#22: exit
+2023/06/17 09:03:09 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/06/17 09:03:09 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 09:03:09 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 09:03:09 [notice] 1#1: worker process 23 exited with code 0
+2023/06/17 09:03:09 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 09:21:23 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 09:21:30 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 09:21:36 [notice] 1#1: using the "epoll" event method
+2023/06/17 09:21:36 [notice] 1#1: nginx/1.24.0
+2023/06/17 09:21:36 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 09:21:36 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 09:21:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 09:21:36 [notice] 1#1: start worker processes
+2023/06/17 09:21:36 [notice] 1#1: start worker process 20
+2023/06/17 09:21:36 [notice] 1#1: start worker process 21
+2023/06/17 09:21:36 [notice] 1#1: start worker process 22
+2023/06/17 09:21:36 [notice] 1#1: start worker process 23
+2023/06/17 09:22:02 [error] 20#20: *1 connect() failed (113: Host is unreachable) while connecting to upstream, client: 172.25.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.4:9000", host: "localhost:8080"
+2023/06/17 09:24:02 [error] 23#23: *4 connect() failed (113: Host is unreachable) while connecting to upstream, client: 172.25.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.4:9000", host: "localhost:8080"
+2023/06/17 09:38:21 [error] 20#20: *43 connect() failed (111: Connection refused) while connecting to upstream, client: 172.25.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.4:9000", host: "localhost:8080"
+2023/06/17 10:02:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 10:02:03 [notice] 20#20: gracefully shutting down
+2023/06/17 10:02:03 [notice] 21#21: gracefully shutting down
+2023/06/17 10:02:03 [notice] 22#22: gracefully shutting down
+2023/06/17 10:02:03 [notice] 22#22: exiting
+2023/06/17 10:02:03 [notice] 23#23: gracefully shutting down
+2023/06/17 10:02:03 [notice] 20#20: exiting
+2023/06/17 10:02:03 [notice] 21#21: exiting
+2023/06/17 10:02:03 [notice] 23#23: exiting
+2023/06/17 10:02:03 [notice] 22#22: exit
+2023/06/17 10:02:03 [notice] 20#20: exit
+2023/06/17 10:02:03 [notice] 21#21: exit
+2023/06/17 10:02:03 [notice] 23#23: exit
+2023/06/17 10:02:03 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/06/17 10:02:03 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 10:02:03 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 10:02:03 [notice] 1#1: worker process 20 exited with code 0
+2023/06/17 10:02:03 [notice] 1#1: worker process 23 exited with code 0
+2023/06/17 10:02:03 [notice] 1#1: exit
+2023/06/17 10:22:19 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 10:22:27 [notice] 1#1: using the "epoll" event method
+2023/06/17 10:22:27 [notice] 1#1: nginx/1.24.0
+2023/06/17 10:22:27 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 10:22:27 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 10:22:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 10:22:27 [notice] 1#1: start worker processes
+2023/06/17 10:22:27 [notice] 1#1: start worker process 20
+2023/06/17 10:22:27 [notice] 1#1: start worker process 21
+2023/06/17 10:22:27 [notice] 1#1: start worker process 22
+2023/06/17 10:22:27 [notice] 1#1: start worker process 23
+2023/06/17 10:30:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 10:30:44 [notice] 20#20: gracefully shutting down
+2023/06/17 10:30:44 [notice] 21#21: gracefully shutting down
+2023/06/17 10:30:44 [notice] 23#23: gracefully shutting down
+2023/06/17 10:30:44 [notice] 22#22: gracefully shutting down
+2023/06/17 10:30:44 [notice] 20#20: exiting
+2023/06/17 10:30:44 [notice] 20#20: exit
+2023/06/17 10:30:44 [notice] 21#21: exiting
+2023/06/17 10:30:44 [notice] 21#21: exit
+2023/06/17 10:30:44 [notice] 23#23: exiting
+2023/06/17 10:30:44 [notice] 22#22: exiting
+2023/06/17 10:30:44 [notice] 23#23: exit
+2023/06/17 10:30:44 [notice] 22#22: exit
+2023/06/17 10:30:44 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/06/17 10:30:44 [notice] 1#1: worker process 20 exited with code 0
+2023/06/17 10:30:44 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 10:30:44 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/06/17 10:30:44 [notice] 1#1: worker process 23 exited with code 0
+2023/06/17 10:30:44 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 10:30:44 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 10:30:44 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/06/17 10:30:44 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/06/17 10:30:44 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 10:30:44 [notice] 1#1: exit
+2023/06/17 10:33:25 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 10:33:31 [notice] 1#1: using the "epoll" event method
+2023/06/17 10:33:31 [notice] 1#1: nginx/1.24.0
+2023/06/17 10:33:31 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 10:33:31 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 10:33:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 10:33:31 [notice] 1#1: start worker processes
+2023/06/17 10:33:31 [notice] 1#1: start worker process 20
+2023/06/17 10:33:31 [notice] 1#1: start worker process 21
+2023/06/17 10:33:31 [notice] 1#1: start worker process 22
+2023/06/17 10:33:31 [notice] 1#1: start worker process 23
+2023/06/17 11:12:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 11:12:44 [notice] 21#21: gracefully shutting down
+2023/06/17 11:12:44 [notice] 21#21: exiting
+2023/06/17 11:12:44 [notice] 22#22: gracefully shutting down
+2023/06/17 11:12:44 [notice] 23#23: gracefully shutting down
+2023/06/17 11:12:44 [notice] 20#20: gracefully shutting down
+2023/06/17 11:12:44 [notice] 21#21: exit
+2023/06/17 11:12:44 [notice] 22#22: exiting
+2023/06/17 11:12:44 [notice] 23#23: exiting
+2023/06/17 11:12:44 [notice] 20#20: exiting
+2023/06/17 11:12:44 [notice] 22#22: exit
+2023/06/17 11:12:44 [notice] 23#23: exit
+2023/06/17 11:12:44 [notice] 20#20: exit
+2023/06/17 11:12:44 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/06/17 11:12:44 [notice] 1#1: worker process 20 exited with code 0
+2023/06/17 11:12:44 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 11:12:44 [notice] 1#1: worker process 23 exited with code 0
+2023/06/17 11:12:44 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 11:12:44 [notice] 1#1: exit
+2023/06/17 11:39:29 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 11:39:34 [notice] 1#1: using the "epoll" event method
+2023/06/17 11:39:34 [notice] 1#1: nginx/1.24.0
+2023/06/17 11:39:34 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 11:39:34 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 11:39:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 11:39:34 [notice] 1#1: start worker processes
+2023/06/17 11:39:34 [notice] 1#1: start worker process 19
+2023/06/17 11:39:34 [notice] 1#1: start worker process 20
+2023/06/17 11:39:34 [notice] 1#1: start worker process 21
+2023/06/17 11:39:34 [notice] 1#1: start worker process 22
+2023/06/17 11:45:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 11:45:06 [notice] 19#19: gracefully shutting down
+2023/06/17 11:45:06 [notice] 20#20: gracefully shutting down
+2023/06/17 11:45:06 [notice] 21#21: gracefully shutting down
+2023/06/17 11:45:06 [notice] 19#19: exiting
+2023/06/17 11:45:06 [notice] 22#22: gracefully shutting down
+2023/06/17 11:45:06 [notice] 19#19: exit
+2023/06/17 11:45:06 [notice] 21#21: exiting
+2023/06/17 11:45:06 [notice] 21#21: exit
+2023/06/17 11:45:06 [notice] 20#20: exiting
+2023/06/17 11:45:06 [notice] 22#22: exiting
+2023/06/17 11:45:06 [notice] 20#20: exit
+2023/06/17 11:45:06 [notice] 22#22: exit
+2023/06/17 11:45:06 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/06/17 11:45:06 [notice] 1#1: worker process 19 exited with code 0
+2023/06/17 11:45:06 [notice] 1#1: worker process 20 exited with code 0
+2023/06/17 11:45:06 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 11:45:06 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 11:45:06 [notice] 1#1: exit
+2023/06/17 11:49:43 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 11:49:48 [notice] 1#1: using the "epoll" event method
+2023/06/17 11:49:48 [notice] 1#1: nginx/1.24.0
+2023/06/17 11:49:48 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 11:49:48 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 11:49:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 11:49:48 [notice] 1#1: start worker processes
+2023/06/17 11:49:48 [notice] 1#1: start worker process 20
+2023/06/17 11:49:48 [notice] 1#1: start worker process 21
+2023/06/17 11:49:48 [notice] 1#1: start worker process 22
+2023/06/17 11:49:48 [notice] 1#1: start worker process 23
+2023/06/17 11:52:15 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 11:52:15 [notice] 22#22: gracefully shutting down
+2023/06/17 11:52:15 [notice] 23#23: gracefully shutting down
+2023/06/17 11:52:15 [notice] 20#20: gracefully shutting down
+2023/06/17 11:52:15 [notice] 22#22: exiting
+2023/06/17 11:52:15 [notice] 21#21: gracefully shutting down
+2023/06/17 11:52:15 [notice] 23#23: exiting
+2023/06/17 11:52:15 [notice] 20#20: exiting
+2023/06/17 11:52:15 [notice] 22#22: exit
+2023/06/17 11:52:15 [notice] 20#20: exit
+2023/06/17 11:52:15 [notice] 21#21: exiting
+2023/06/17 11:52:15 [notice] 23#23: exit
+2023/06/17 11:52:15 [notice] 21#21: exit
+2023/06/17 11:52:15 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/06/17 11:52:15 [notice] 1#1: worker process 20 exited with code 0
+2023/06/17 11:52:15 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 11:52:15 [notice] 1#1: worker process 23 exited with code 0
+2023/06/17 11:52:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 11:52:15 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/06/17 11:52:15 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 11:52:15 [notice] 1#1: exit
+2023/06/17 12:00:18 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 12:00:22 [notice] 1#1: using the "epoll" event method
+2023/06/17 12:00:22 [notice] 1#1: nginx/1.24.0
+2023/06/17 12:00:22 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 12:00:22 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 12:00:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 12:00:22 [notice] 1#1: start worker processes
+2023/06/17 12:00:22 [notice] 1#1: start worker process 20
+2023/06/17 12:00:22 [notice] 1#1: start worker process 21
+2023/06/17 12:00:22 [notice] 1#1: start worker process 22
+2023/06/17 12:00:22 [notice] 1#1: start worker process 23
+2023/06/17 12:03:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 12:03:52 [notice] 22#22: gracefully shutting down
+2023/06/17 12:03:52 [notice] 20#20: gracefully shutting down
+2023/06/17 12:03:52 [notice] 21#21: gracefully shutting down
+2023/06/17 12:03:52 [notice] 23#23: gracefully shutting down
+2023/06/17 12:03:52 [notice] 22#22: exiting
+2023/06/17 12:03:52 [notice] 20#20: exiting
+2023/06/17 12:03:52 [notice] 21#21: exiting
+2023/06/17 12:03:52 [notice] 23#23: exiting
+2023/06/17 12:03:52 [notice] 22#22: exit
+2023/06/17 12:03:52 [notice] 21#21: exit
+2023/06/17 12:03:52 [notice] 23#23: exit
+2023/06/17 12:03:52 [notice] 20#20: exit
+2023/06/17 12:03:52 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/06/17 12:03:52 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 12:03:52 [notice] 1#1: worker process 23 exited with code 0
+2023/06/17 12:03:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 12:03:52 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/06/17 12:03:52 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/06/17 12:03:52 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 12:03:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 12:03:52 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/06/17 12:03:52 [notice] 1#1: worker process 20 exited with code 0
+2023/06/17 12:03:52 [notice] 1#1: exit
+2023/06/17 12:10:30 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 12:10:35 [notice] 1#1: using the "epoll" event method
+2023/06/17 12:10:35 [notice] 1#1: nginx/1.24.0
+2023/06/17 12:10:35 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 12:10:35 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 12:10:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 12:10:35 [notice] 1#1: start worker processes
+2023/06/17 12:10:35 [notice] 1#1: start worker process 20
+2023/06/17 12:10:35 [notice] 1#1: start worker process 21
+2023/06/17 12:10:35 [notice] 1#1: start worker process 22
+2023/06/17 12:10:35 [notice] 1#1: start worker process 23
+2023/06/17 12:15:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 12:15:37 [notice] 20#20: gracefully shutting down
+2023/06/17 12:15:37 [notice] 21#21: gracefully shutting down
+2023/06/17 12:15:37 [notice] 22#22: gracefully shutting down
+2023/06/17 12:15:37 [notice] 22#22: exiting
+2023/06/17 12:15:37 [notice] 23#23: gracefully shutting down
+2023/06/17 12:15:37 [notice] 20#20: exiting
+2023/06/17 12:15:37 [notice] 21#21: exiting
+2023/06/17 12:15:37 [notice] 22#22: exit
+2023/06/17 12:15:37 [notice] 23#23: exiting
+2023/06/17 12:15:37 [notice] 23#23: exit
+2023/06/17 12:15:37 [notice] 20#20: exit
+2023/06/17 12:15:37 [notice] 21#21: exit
+2023/06/17 12:15:37 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/06/17 12:15:37 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 12:15:37 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 12:15:37 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/06/17 12:15:37 [notice] 1#1: worker process 23 exited with code 0
+2023/06/17 12:15:37 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 12:15:37 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/06/17 12:15:37 [notice] 1#1: worker process 20 exited with code 0
+2023/06/17 12:15:37 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 12:15:37 [notice] 1#1: exit
+2023/06/17 12:15:54 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 12:15:58 [notice] 1#1: using the "epoll" event method
+2023/06/17 12:15:58 [notice] 1#1: nginx/1.24.0
+2023/06/17 12:15:58 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 12:15:58 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 12:15:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 12:15:58 [notice] 1#1: start worker processes
+2023/06/17 12:15:58 [notice] 1#1: start worker process 20
+2023/06/17 12:15:58 [notice] 1#1: start worker process 21
+2023/06/17 12:15:58 [notice] 1#1: start worker process 22
+2023/06/17 12:15:58 [notice] 1#1: start worker process 23
+2023/06/17 12:19:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 12:19:33 [notice] 21#21: gracefully shutting down
+2023/06/17 12:19:33 [notice] 20#20: gracefully shutting down
+2023/06/17 12:19:33 [notice] 22#22: gracefully shutting down
+2023/06/17 12:19:33 [notice] 23#23: gracefully shutting down
+2023/06/17 12:19:33 [notice] 21#21: exiting
+2023/06/17 12:19:33 [notice] 21#21: exit
+2023/06/17 12:19:33 [notice] 20#20: exiting
+2023/06/17 12:19:33 [notice] 20#20: exit
+2023/06/17 12:19:33 [notice] 22#22: exiting
+2023/06/17 12:19:33 [notice] 22#22: exit
+2023/06/17 12:19:33 [notice] 23#23: exiting
+2023/06/17 12:19:33 [notice] 23#23: exit
+2023/06/17 12:19:33 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/06/17 12:19:33 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 12:19:33 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 12:19:33 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/06/17 12:19:33 [notice] 1#1: worker process 20 exited with code 0
+2023/06/17 12:19:33 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 12:19:33 [notice] 1#1: worker process 23 exited with code 0
+2023/06/17 12:19:33 [notice] 1#1: exit
+2023/06/17 12:19:52 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 12:19:58 [notice] 1#1: using the "epoll" event method
+2023/06/17 12:19:58 [notice] 1#1: nginx/1.24.0
+2023/06/17 12:19:58 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 12:19:58 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 12:19:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 12:19:58 [notice] 1#1: start worker processes
+2023/06/17 12:19:58 [notice] 1#1: start worker process 20
+2023/06/17 12:19:58 [notice] 1#1: start worker process 21
+2023/06/17 12:19:58 [notice] 1#1: start worker process 22
+2023/06/17 12:19:58 [notice] 1#1: start worker process 23
+2023/06/17 12:23:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 12:23:32 [notice] 20#20: gracefully shutting down
+2023/06/17 12:23:32 [notice] 21#21: gracefully shutting down
+2023/06/17 12:23:32 [notice] 22#22: gracefully shutting down
+2023/06/17 12:23:32 [notice] 23#23: gracefully shutting down
+2023/06/17 12:23:32 [notice] 20#20: exiting
+2023/06/17 12:23:32 [notice] 21#21: exiting
+2023/06/17 12:23:32 [notice] 22#22: exiting
+2023/06/17 12:23:32 [notice] 23#23: exiting
+2023/06/17 12:23:32 [notice] 20#20: exit
+2023/06/17 12:23:32 [notice] 21#21: exit
+2023/06/17 12:23:32 [notice] 22#22: exit
+2023/06/17 12:23:32 [notice] 23#23: exit
+2023/06/17 12:23:32 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/06/17 12:23:32 [notice] 1#1: worker process 20 exited with code 0
+2023/06/17 12:23:32 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 12:23:32 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 12:23:32 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/06/17 12:23:32 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 12:23:32 [notice] 1#1: worker process 23 exited with code 0
+2023/06/17 12:23:32 [notice] 1#1: exit
+2023/06/17 12:25:24 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 12:25:27 [notice] 1#1: using the "epoll" event method
+2023/06/17 12:25:27 [notice] 1#1: nginx/1.24.0
+2023/06/17 12:25:27 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 12:25:27 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 12:25:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 12:25:27 [notice] 1#1: start worker processes
+2023/06/17 12:25:27 [notice] 1#1: start worker process 19
+2023/06/17 12:25:27 [notice] 1#1: start worker process 20
+2023/06/17 12:25:27 [notice] 1#1: start worker process 21
+2023/06/17 12:25:27 [notice] 1#1: start worker process 22
+2023/06/17 12:27:15 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 12:27:15 [notice] 19#19: gracefully shutting down
+2023/06/17 12:27:15 [notice] 20#20: gracefully shutting down
+2023/06/17 12:27:15 [notice] 21#21: gracefully shutting down
+2023/06/17 12:27:15 [notice] 22#22: gracefully shutting down
+2023/06/17 12:27:15 [notice] 19#19: exiting
+2023/06/17 12:27:15 [notice] 19#19: exit
+2023/06/17 12:27:15 [notice] 20#20: exiting
+2023/06/17 12:27:15 [notice] 20#20: exit
+2023/06/17 12:27:15 [notice] 21#21: exiting
+2023/06/17 12:27:15 [notice] 22#22: exiting
+2023/06/17 12:27:15 [notice] 22#22: exit
+2023/06/17 12:27:15 [notice] 21#21: exit
+2023/06/17 12:27:15 [notice] 1#1: signal 17 (SIGCHLD) received from 19
+2023/06/17 12:27:15 [notice] 1#1: worker process 19 exited with code 0
+2023/06/17 12:27:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 12:27:15 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/06/17 12:27:15 [notice] 1#1: worker process 20 exited with code 0
+2023/06/17 12:27:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 12:27:15 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/06/17 12:27:15 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 12:27:15 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 12:27:15 [notice] 1#1: exit
+2023/06/17 12:31:06 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 12:31:10 [notice] 1#1: using the "epoll" event method
+2023/06/17 12:31:10 [notice] 1#1: nginx/1.24.0
+2023/06/17 12:31:10 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 12:31:10 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 12:31:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 12:31:10 [notice] 1#1: start worker processes
+2023/06/17 12:31:10 [notice] 1#1: start worker process 20
+2023/06/17 12:31:10 [notice] 1#1: start worker process 21
+2023/06/17 12:31:10 [notice] 1#1: start worker process 22
+2023/06/17 12:31:10 [notice] 1#1: start worker process 23
+2023/06/17 12:33:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 12:33:58 [notice] 20#20: gracefully shutting down
+2023/06/17 12:33:58 [notice] 21#21: gracefully shutting down
+2023/06/17 12:33:58 [notice] 22#22: gracefully shutting down
+2023/06/17 12:33:58 [notice] 23#23: gracefully shutting down
+2023/06/17 12:33:58 [notice] 20#20: exiting
+2023/06/17 12:33:58 [notice] 21#21: exiting
+2023/06/17 12:33:58 [notice] 21#21: exit
+2023/06/17 12:33:58 [notice] 22#22: exiting
+2023/06/17 12:33:58 [notice] 22#22: exit
+2023/06/17 12:33:58 [notice] 23#23: exiting
+2023/06/17 12:33:58 [notice] 23#23: exit
+2023/06/17 12:33:58 [notice] 20#20: exit
+2023/06/17 12:33:58 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/06/17 12:33:58 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 12:33:58 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 12:33:58 [notice] 1#1: worker process 23 exited with code 0
+2023/06/17 12:33:58 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 12:33:58 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/06/17 12:33:58 [notice] 1#1: worker process 20 exited with code 0
+2023/06/17 12:33:58 [notice] 1#1: exit
+2023/06/17 12:34:08 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 12:34:12 [notice] 1#1: using the "epoll" event method
+2023/06/17 12:34:12 [notice] 1#1: nginx/1.24.0
+2023/06/17 12:34:12 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 12:34:12 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 12:34:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 12:34:12 [notice] 1#1: start worker processes
+2023/06/17 12:34:12 [notice] 1#1: start worker process 21
+2023/06/17 12:34:12 [notice] 1#1: start worker process 22
+2023/06/17 12:34:12 [notice] 1#1: start worker process 23
+2023/06/17 12:34:12 [notice] 1#1: start worker process 24
+2023/06/17 12:36:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 12:36:34 [notice] 21#21: gracefully shutting down
+2023/06/17 12:36:34 [notice] 22#22: gracefully shutting down
+2023/06/17 12:36:34 [notice] 22#22: exiting
+2023/06/17 12:36:34 [notice] 24#24: gracefully shutting down
+2023/06/17 12:36:34 [notice] 23#23: gracefully shutting down
+2023/06/17 12:36:34 [notice] 23#23: exiting
+2023/06/17 12:36:34 [notice] 21#21: exiting
+2023/06/17 12:36:34 [notice] 24#24: exiting
+2023/06/17 12:36:34 [notice] 22#22: exit
+2023/06/17 12:36:34 [notice] 23#23: exit
+2023/06/17 12:36:34 [notice] 21#21: exit
+2023/06/17 12:36:34 [notice] 24#24: exit
+2023/06/17 12:36:34 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/06/17 12:36:34 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 12:36:34 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 12:36:34 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/06/17 12:36:34 [notice] 1#1: worker process 23 exited with code 0
+2023/06/17 12:36:34 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 12:36:34 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/06/17 12:36:34 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 12:36:34 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 12:36:34 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/06/17 12:36:34 [notice] 1#1: worker process 24 exited with code 0
+2023/06/17 12:36:34 [notice] 1#1: exit
+2023/06/17 12:56:34 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 12:56:43 [notice] 1#1: using the "epoll" event method
+2023/06/17 12:56:43 [notice] 1#1: nginx/1.24.0
+2023/06/17 12:56:43 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 12:56:43 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 12:56:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 12:56:43 [notice] 1#1: start worker processes
+2023/06/17 12:56:43 [notice] 1#1: start worker process 20
+2023/06/17 12:56:43 [notice] 1#1: start worker process 21
+2023/06/17 12:56:43 [notice] 1#1: start worker process 22
+2023/06/17 12:56:43 [notice] 1#1: start worker process 23
+2023/06/17 13:08:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 13:08:38 [notice] 20#20: gracefully shutting down
+2023/06/17 13:08:38 [notice] 20#20: exiting
+2023/06/17 13:08:38 [notice] 21#21: gracefully shutting down
+2023/06/17 13:08:38 [notice] 23#23: gracefully shutting down
+2023/06/17 13:08:38 [notice] 22#22: gracefully shutting down
+2023/06/17 13:08:38 [notice] 21#21: exiting
+2023/06/17 13:08:38 [notice] 23#23: exiting
+2023/06/17 13:08:38 [notice] 20#20: exit
+2023/06/17 13:08:38 [notice] 21#21: exit
+2023/06/17 13:08:38 [notice] 22#22: exiting
+2023/06/17 13:08:38 [notice] 22#22: exit
+2023/06/17 13:08:38 [notice] 23#23: exit
+2023/06/17 13:08:38 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/06/17 13:08:38 [notice] 1#1: worker process 20 exited with code 0
+2023/06/17 13:08:38 [notice] 1#1: worker process 23 exited with code 0
+2023/06/17 13:08:38 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 13:08:38 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/06/17 13:08:38 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 13:08:38 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 13:08:38 [notice] 1#1: exit
+2023/06/17 13:09:03 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 13:09:07 [notice] 1#1: using the "epoll" event method
+2023/06/17 13:09:07 [notice] 1#1: nginx/1.24.0
+2023/06/17 13:09:07 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 13:09:07 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 13:09:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 13:09:07 [notice] 1#1: start worker processes
+2023/06/17 13:09:07 [notice] 1#1: start worker process 21
+2023/06/17 13:09:07 [notice] 1#1: start worker process 22
+2023/06/17 13:09:07 [notice] 1#1: start worker process 23
+2023/06/17 13:09:07 [notice] 1#1: start worker process 24
+2023/06/17 13:09:16 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.160.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.160.4:9000", host: "localhost:8000"
+2023/06/17 13:09:18 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.160.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.160.4:9000", host: "localhost:8000"
+2023/06/17 13:09:19 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.160.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.160.4:9000", host: "localhost:8000"
+2023/06/17 13:09:20 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.160.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.160.4:9000", host: "localhost:8000"
+2023/06/17 13:09:20 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.160.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.160.4:9000", host: "localhost:8000"
+2023/06/17 13:09:20 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.160.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.160.4:9000", host: "localhost:8000"
+2023/06/17 13:09:20 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.160.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.160.4:9000", host: "localhost:8000"
+2023/06/17 13:09:20 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.160.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.160.4:9000", host: "localhost:8000"
+2023/06/17 13:09:21 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.160.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.160.4:9000", host: "localhost:8000"
+2023/06/17 13:09:21 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.160.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.160.4:9000", host: "localhost:8000"
+2023/06/17 13:09:21 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.160.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.160.4:9000", host: "localhost:8000"
+2023/06/17 13:09:21 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.160.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.160.4:9000", host: "localhost:8000"
+2023/06/17 13:10:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 13:10:33 [notice] 21#21: gracefully shutting down
+2023/06/17 13:10:33 [notice] 23#23: gracefully shutting down
+2023/06/17 13:10:33 [notice] 22#22: gracefully shutting down
+2023/06/17 13:10:33 [notice] 24#24: gracefully shutting down
+2023/06/17 13:10:33 [notice] 21#21: exiting
+2023/06/17 13:10:33 [notice] 24#24: exiting
+2023/06/17 13:10:33 [notice] 21#21: exit
+2023/06/17 13:10:33 [notice] 22#22: exiting
+2023/06/17 13:10:33 [notice] 24#24: exit
+2023/06/17 13:10:33 [notice] 22#22: exit
+2023/06/17 13:10:33 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/06/17 13:10:33 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 13:10:33 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 13:10:33 [notice] 1#1: worker process 24 exited with code 0
+2023/06/17 13:10:33 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 13:11:11 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 13:11:15 [notice] 1#1: using the "epoll" event method
+2023/06/17 13:11:15 [notice] 1#1: nginx/1.24.0
+2023/06/17 13:11:15 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 13:11:15 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 13:11:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 13:11:15 [notice] 1#1: start worker processes
+2023/06/17 13:11:15 [notice] 1#1: start worker process 20
+2023/06/17 13:11:15 [notice] 1#1: start worker process 21
+2023/06/17 13:11:15 [notice] 1#1: start worker process 22
+2023/06/17 13:11:15 [notice] 1#1: start worker process 23
+2023/06/17 13:11:19 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "127.0.0.1:8000"
+2023/06/17 13:11:23 [error] 22#22: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "localhost:8000"
+2023/06/17 13:11:24 [error] 22#22: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "localhost:8000"
+2023/06/17 13:11:24 [error] 22#22: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "localhost:8000"
+2023/06/17 13:11:25 [error] 22#22: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "localhost:8000"
+2023/06/17 13:11:26 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "127.0.0.1:8000"
+2023/06/17 13:11:33 [error] 22#22: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "localhost:8000"
+2023/06/17 13:12:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 13:12:05 [notice] 20#20: gracefully shutting down
+2023/06/17 13:12:05 [notice] 21#21: gracefully shutting down
+2023/06/17 13:12:05 [notice] 23#23: gracefully shutting down
+2023/06/17 13:12:05 [notice] 23#23: exiting
+2023/06/17 13:12:05 [notice] 22#22: gracefully shutting down
+2023/06/17 13:12:05 [notice] 22#22: exiting
+2023/06/17 13:12:05 [notice] 23#23: exit
+2023/06/17 13:12:05 [notice] 22#22: exit
+2023/06/17 13:12:05 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/06/17 13:12:05 [notice] 1#1: worker process 23 exited with code 0
+2023/06/17 13:12:05 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 13:12:05 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/06/17 13:12:05 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 13:12:05 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 13:12:10 [notice] 21#21: exiting
+2023/06/17 13:12:10 [notice] 21#21: exit
+2023/06/17 13:12:10 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/06/17 13:12:10 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 13:12:10 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 13:12:33 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/17 13:12:36 [notice] 1#1: using the "epoll" event method
+2023/06/17 13:12:36 [notice] 1#1: nginx/1.24.0
+2023/06/17 13:12:36 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 13:12:36 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/17 13:12:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 13:12:36 [notice] 1#1: start worker processes
+2023/06/17 13:12:36 [notice] 1#1: start worker process 20
+2023/06/17 13:12:36 [notice] 1#1: start worker process 21
+2023/06/17 13:12:36 [notice] 1#1: start worker process 22
+2023/06/17 13:12:36 [notice] 1#1: start worker process 23
+2023/06/17 13:12:37 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "localhost:8000"
+2023/06/17 13:12:38 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "localhost:8000"
+2023/06/17 13:12:38 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "localhost:8000"
+2023/06/17 13:12:38 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "localhost:8000"
+2023/06/17 13:12:38 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "localhost:8000"
+2023/06/17 13:12:55 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "localhost:8000"
+2023/06/17 13:12:57 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "localhost:8000"
+2023/06/17 13:13:02 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "localhost:8000"
+2023/06/17 13:13:07 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "localhost:8000"
+2023/06/17 13:13:08 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "localhost:8000"
+2023/06/17 13:13:08 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "localhost:8000"
+2023/06/17 13:13:08 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "localhost:8000"
+2023/06/17 13:13:15 [error] 22#22: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "localhost:8000"
+2023/06/17 13:58:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 13:58:29 [notice] 20#20: gracefully shutting down
+2023/06/17 13:58:29 [notice] 21#21: gracefully shutting down
+2023/06/17 13:58:29 [notice] 22#22: gracefully shutting down
+2023/06/17 13:58:29 [notice] 23#23: gracefully shutting down
+2023/06/17 13:58:29 [notice] 22#22: exiting
+2023/06/17 13:58:29 [notice] 20#20: exiting
+2023/06/17 13:58:29 [notice] 21#21: exiting
+2023/06/17 13:58:29 [notice] 23#23: exiting
+2023/06/17 13:58:29 [notice] 22#22: exit
+2023/06/17 13:58:29 [notice] 20#20: exit
+2023/06/17 13:58:29 [notice] 21#21: exit
+2023/06/17 13:58:29 [notice] 23#23: exit
+2023/06/17 13:58:29 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/06/17 13:58:29 [notice] 1#1: worker process 20 exited with code 0
+2023/06/17 13:58:29 [notice] 1#1: worker process 21 exited with code 0
+2023/06/17 13:58:29 [notice] 1#1: worker process 22 exited with code 0
+2023/06/17 13:58:29 [notice] 1#1: worker process 23 exited with code 0
+2023/06/17 13:58:29 [notice] 1#1: exit
+2023/06/19 06:30:10 [emerg] 1#1: host not found in upstream "lara" in /etc/nginx/conf.d/app.conf:19
+2023/06/19 06:30:15 [notice] 1#1: using the "epoll" event method
+2023/06/19 06:30:15 [notice] 1#1: nginx/1.24.0
+2023/06/19 06:30:15 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/19 06:30:15 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/19 06:30:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/19 06:30:15 [notice] 1#1: start worker processes
+2023/06/19 06:30:15 [notice] 1#1: start worker process 20
+2023/06/19 06:30:15 [notice] 1#1: start worker process 21
+2023/06/19 06:30:15 [notice] 1#1: start worker process 22
+2023/06/19 06:30:15 [notice] 1#1: start worker process 23
+2023/06/19 06:32:10 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "OPTIONS /api/login HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "127.0.0.1:8000", referrer: "http://localhost:5173/"
+2023/06/19 14:40:13 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/19 14:40:13 [notice] 23#23: gracefully shutting down
+2023/06/19 14:40:13 [notice] 21#21: gracefully shutting down
+2023/06/19 14:40:13 [notice] 20#20: gracefully shutting down
+2023/06/19 14:40:13 [notice] 22#22: gracefully shutting down
+2023/06/19 14:40:13 [notice] 23#23: exiting
+2023/06/19 14:40:13 [notice] 21#21: exiting
+2023/06/19 14:40:13 [notice] 23#23: exit
+2023/06/19 14:40:13 [notice] 20#20: exiting
+2023/06/19 14:40:13 [notice] 22#22: exiting
+2023/06/19 14:40:13 [notice] 20#20: exit
+2023/06/19 14:40:13 [notice] 21#21: exit
+2023/06/19 14:40:13 [notice] 22#22: exit
+2023/06/19 14:40:13 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/06/19 14:40:13 [notice] 1#1: worker process 22 exited with code 0
+2023/06/19 14:40:13 [notice] 1#1: worker process 21 exited with code 0
+2023/06/19 14:40:13 [notice] 1#1: worker process 23 exited with code 0
+2023/06/19 14:40:13 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/19 14:40:13 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/06/19 14:40:13 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/06/19 14:40:13 [notice] 1#1: worker process 20 exited with code 0
+2023/06/19 14:40:13 [notice] 1#1: exit
+2023/06/20 06:02:32 [notice] 1#1: using the "epoll" event method
+2023/06/20 06:02:32 [notice] 1#1: nginx/1.24.0
+2023/06/20 06:02:32 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/20 06:02:32 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/06/20 06:02:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/20 06:02:32 [notice] 1#1: start worker processes
+2023/06/20 06:02:32 [notice] 1#1: start worker process 20
+2023/06/20 06:02:32 [notice] 1#1: start worker process 21
+2023/06/20 06:02:32 [notice] 1#1: start worker process 22
+2023/06/20 06:02:32 [notice] 1#1: start worker process 23
+2023/06/20 06:05:16 [error] 22#22: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "OPTIONS /api/loadnews HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "127.0.0.1:8000", referrer: "http://localhost:5173/"
+2023/06/20 06:05:16 [error] 23#23: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "OPTIONS /api/loadnews HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "127.0.0.1:8000", referrer: "http://localhost:5173/"
+2023/06/20 06:05:16 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "OPTIONS /api/getauthors HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "127.0.0.1:8000", referrer: "http://localhost:5173/"
+2023/06/20 06:05:16 [error] 21#21: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.176.1, server: , request: "OPTIONS /api/user HTTP/1.1", upstream: "fastcgi://192.168.176.4:9000", host: "127.0.0.1:8000", referrer: "http://localhost:5173/"
+2023/06/20 14:09:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/20 14:09:28 [notice] 21#21: gracefully shutting down
+2023/06/20 14:09:28 [notice] 21#21: exiting
+2023/06/20 14:09:28 [notice] 20#20: gracefully shutting down
+2023/06/20 14:09:28 [notice] 20#20: exiting
+2023/06/20 14:09:28 [notice] 22#22: gracefully shutting down
+2023/06/20 14:09:28 [notice] 22#22: exiting
+2023/06/20 14:09:28 [notice] 23#23: gracefully shutting down
+2023/06/20 14:09:28 [notice] 21#21: exit
+2023/06/20 14:09:28 [notice] 20#20: exit
+2023/06/20 14:09:28 [notice] 23#23: exiting
+2023/06/20 14:09:28 [notice] 22#22: exit
+2023/06/20 14:09:28 [notice] 23#23: exit
+2023/06/20 14:09:28 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/06/20 14:09:28 [notice] 1#1: worker process 20 exited with code 0
+2023/06/20 14:09:28 [notice] 1#1: worker process 21 exited with code 0
+2023/06/20 14:09:28 [notice] 1#1: worker process 22 exited with code 0
+2023/06/20 14:09:28 [notice] 1#1: worker process 23 exited with code 0
+2023/06/20 14:09:28 [notice] 1#1: exit

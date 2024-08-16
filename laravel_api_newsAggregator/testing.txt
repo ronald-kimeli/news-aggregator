@@ -1,0 +1,9 @@
+
+docker compose build --no-cache && docker compose up --force-recreate -d
+docker compose down
+docker compose up --force-recreate -d --remove-orphans
+docker compose up -d --remove-orphans
+
+# delete all unused images
+docker system prune -a
+docker compose exec laravel_api_newsAggregator php artisan config:clear

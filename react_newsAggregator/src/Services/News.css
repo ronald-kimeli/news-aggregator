@@ -1,0 +1,35 @@
+.styled{
+    width: 18rem;
+}
+
+.styleoflink{
+    text-decoration: none;
+}
+
+:hover .styleoflink{
+    text-decoration: none;
+}
+
+.object-fit-thumb img {
+    width: auto;
+    height: auto;
+    max-width: 1000%;
+    min-height: 100%;
+    min-width: 100vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 1;
+}
+
+@supports ( object-fit: cover ) {
+    .object-fit-thumb img {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        transform: none;
+    }
+}

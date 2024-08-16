@@ -1,0 +1,92 @@
+version: "3.8"
+
+services:
+#Laravel api Backend for News Aggregator
+  news-aggregator-laravel-api:
+    build:
+      context: ./laravel_api_newsAggregator
+      target: php
+      args:
+        - APP_ENV=${APP_ENV}
+      dockerfile: Dockerfile
+    image: laravelapi_newsaggator
+    container_name: news-aggregator-laravel-api
+    restart: unless-stopped
+    tty: true
+    environment:
+      SERVICE_NAME: news-aggregator-laravel-api
+      SERVICE_TAGS: dev
+    working_dir: /var/www
+    volumes:
+      - ./laravel_api_newsAggregator:/var/www
+      - ./laravel_api_newsAggregator/Docker/php/local.ini:/usr/local/etc/php/conf.d/local.ini
+    depends_on:
+      - webserver
+    networks:
+      - app-network
+
+  webserver:
+    container_name: webserver
+    image: nginx:stable-alpine-slim
+    restart: unless-stopped
+    tty: true
+    ports:
+        - 8000:80
+    volumes:
+        - ./laravel_api_newsAggregator:/var/www
+        - ./laravel_api_newsAggregator/Docker/nginx/conf.d:/etc/nginx/conf.d
+        - ./laravel_api_newsAggregator/Docker/nginx/logs:/var/log/nginx
+    logging:
+        options:
+            max-size: "10m"
+            max-file: "3"
+    depends_on:
+      - db
+    networks:
+      - app-network
+
+#Database Service
+  db:
+   image : mysql:5.7
+   container_name : db
+   restart: unless-stopped
+   tty: true
+   ports:
+      - "3307:3306"
+   environment:
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+   volumes:
+      - dbdata:/var/lib/mysql
+      - ./laravel_api_newsAggregator/Docker/mysql/my.cnf:/etc/mysql/my.cnf
+   networks:
+      - app-network
+      
+#React Frontend news Aggregator
+  news-aggregator-react-frontend:
+    build:
+      context: ./react_newsAggregator
+      dockerfile: Dockerfile
+    image: react-frontend
+    container_name: news-aggregator-react-frontend
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "5173:5173"
+    volumes:
+        - ./react_newsAggregator:/var/www
+    command: npm run dev
+    depends_on:
+      - news-aggregator-laravel-api
+
+volumes:
+  dbdata:
+    driver: local
+
+networks:
+  app-network:
+    driver: bridge
